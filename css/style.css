@@ -286,13 +286,13 @@ q {
   margin-bottom: -1.2rem;
 }
 .index .comment .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   overflow-x: scroll;
   scrollbar-width: thin; /* 設定捲軸寬度 */
   scrollbar-color: rgba(0, 0, 0, 0.169) #dddddd;
-  column-gap: 2rem;
+  column-gap: 1rem;
   padding-bottom: 2rem;
 }
 .index .comment .container::-webkit-scrollbar {
@@ -309,8 +309,8 @@ q {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  min-width: 300px;
+  width: 280px;
+  min-width: 280px;
 }
 .index .comment .container .item-txt {
   background-color: #EFF2F5;

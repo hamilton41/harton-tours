@@ -18,3 +18,6 @@ $(".new-post-slider").owlCarousel({
     items:1
 
 });
+
+var myDiv = document.querySelector(".index .comment .container");
+myDiv.scrollLeft = (myDiv.scrollWidth - myDiv.clientWidth) / 2;
