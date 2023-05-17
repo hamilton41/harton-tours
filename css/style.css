@@ -424,7 +424,7 @@ q {
 .index .new-post .container .owl-prev,
 .index .new-post .container .owl-next {
   display: inline-block;
-  margin: 0;
+  margin: 0 3px;
   width: 30px;
   position: relative;
   padding: 3px;
