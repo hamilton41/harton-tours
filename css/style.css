@@ -290,7 +290,6 @@ q {
   margin: auto;
   display: flex;
   overflow-x: scroll;
-  overflow-y: hidden;
   scrollbar-width: thin; /* 設定捲軸寬度 */
   scrollbar-color: rgba(0, 0, 0, 0.169) #dddddd;
   column-gap: 2rem;
