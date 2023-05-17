@@ -179,19 +179,21 @@
             display: flex;
             overflow-x: scroll;
             overflow-y: hidden;
+            scrollbar-width: thin; /* 設定捲軸寬度 */
+            scrollbar-color: rgba(0, 0, 0, 0.169) #dddddd; 
             column-gap: 2rem;
             padding-bottom: 2rem;
-            // &::-webkit-scrollbar {
-            //     -webkit-appearance: none;
-            //     width: auto;
-            //     height: 3px;
-            //   }
+            &::-webkit-scrollbar {
+                 -webkit-appearance: none;
+                 width: auto;
+                 height: 3px;
+               }
               
-            //   &::-webkit-scrollbar-thumb {
-            //     border-radius: 4px;
-            //     background-color: rgba(0, 0, 0, 0.169);
-            //     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-            //   }
+               &::-webkit-scrollbar-thumb {
+                 border-radius: 4px;
+                 background-color: rgba(0, 0, 0, 0.169);
+                 box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+               }
             .item{
                 display: flex;
                 flex-direction: column;
@@ -313,6 +315,8 @@
                 transform: translateY(-50%);
                 text-align: center;
                 z-index: 5;
+                display: flex;
+                justify-content: space-between;
               }
               
               .owl-prev,
@@ -327,15 +331,7 @@
                 border-radius: 10px;
               }
               
-              .owl-prev {
-                float: left;
-                margin-left: 0px;
-              }
               
-              .owl-next {
-                float: right;
-                margin-right: 0px;
-              }
               .owl-dots{
                 margin-top: 1rem;
               }
